@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon API</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>PokeAPI</h1>
+  
+  <h2>Filtrar Pokémon por Tipo</h2>
+  <select id="tipoSelector">
+    <option value="normal">Normal</option>
+    <option value="fire">Fuego</option>
+    <option value="water">Agua</option>
+    <option value="grass">Planta</option>
+    <option value="electric">Eléctrico</option>
+    <option value="ice">Hielo</option>
+    <option value="fighting">Lucha</option>
+    <option value="poison">Veneno</option>
+    <option value="ground">Tierra</option>
+    <option value="flying">Volador</option>
+    <option value="psychic">Psíquico</option>
+    <option value="bug">Bicho</option>
+    <option value="rock">Roca</option>
+    <option value="ghost">Fantasma</option>
+    <option value="dark">Siniestro</option>
+    <option value="steel">Acero</option>
+    <option value="fairy">Hada</option>
+  </select><br>
+  <button id="filtrarTipo">Filtrar</button>
+  <ul id="pokemonesTipo"></ul>
+
+  <h2>Filtrar Pokémon por Nombre</h2>
+  <input type="text" id="nombreInput" placeholder="Nombre del Pokémon">
+  <br><button id="filtrarNombre">Filtrar</button>
+  <div id="pokemonNombre"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
